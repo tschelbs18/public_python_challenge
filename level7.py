@@ -15,6 +15,7 @@ def fn_get_letters_dict(word):
     return letters_dict
     
 def fn_compare_letters_dicts(sub_word, full_word):
+    # This will evaluate words that can be made using letters from full_word
     test_word = fn_get_letters_dict(sub_word)
     master_word = fn_get_letters_dict(full_word)
     
